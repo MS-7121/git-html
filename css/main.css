@@ -19,3 +19,10 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
+.cards{
+    display: flex;
+    justify-items: center;
+}
+.carousel-inner {
+    padding: 1em;
+  }
