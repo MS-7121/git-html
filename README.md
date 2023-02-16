@@ -1,19 +1,43 @@
-# HTMLPractical
-1) Branch Creation AND Merging:
+## Git Commands
 
--> Creating a branch named "Cards":
+* git init:
+  - This command is used for initializing a git repository in you local machine.
 
-![image](https://user-images.githubusercontent.com/68054971/218725733-39730b32-f1d5-4c9a-9054-e284a608d89e.png)
+* git log:
+  - This command is used for getting log of the current branch.
 
--> Commit on the branch:
+* git clone:
+  - This command is used for cloning a remote repository into your local machine.
 
-![image](https://user-images.githubusercontent.com/68054971/218725809-66e5a2dc-be43-47b3-93a6-00148fb7b123.png)
+* git branch <branch-name>:
+  - This command is used for creating a new branch named <branch-name>.
 
--> Pushing to the remote repo:
+* git checkout <branch-name>:
+  - This command is used for switching into specified branch name <branch-name>.
 
-![image](https://user-images.githubusercontent.com/68054971/218726514-dd60ed6d-f7f4-47fe-a8c4-691b9a4734f2.png)
+* git push:
+  - This command is used for pushing all the commits to the remote repository.
 
+* git add:
+  - This command is used for adding the following files to the staging area.
 
--> Checking status:
+* git commit:
+  - This command is used for committing all the files which are there in the staging area.
 
-![image](https://user-images.githubusercontent.com/68054971/218726366-4a3273b4-e89d-4c8b-b642-cf27f57e8185.png)
+* git status:
+  - This command is used for getting the status of current working local git repo. It shows all the files which are onto the staging area.
+
+* git merge:
+  - This command is used for merging two branches into one
+
+* git fetch:
+  - This command is used for downloading branch from a repository along with all the files & commits. It doesn't merge changes with your local repository.
+
+* git pull:
+  - This command is the automated version of git fetch. It downloads a branch from a remote repository, then immediately merges it into the current branch.
+
+* git rebase:
+  - This command is used for applying commits from one branch to another. It creates a copy of all the commits and applies it to current branch.
+
+* git rebase -i <hash-value> OR git rebase -i HEAD~<value>:
+  - This command is used for making any changes in the previos commmits of the current branch. It will display all the commits from the specified <hash-value> or from <value> steps behind of HEAD Pointer.
